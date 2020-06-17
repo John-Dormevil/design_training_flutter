@@ -1,3 +1,4 @@
+import 'package:design_training/pages/greenery_app_design/example.dart';
 import 'package:design_training/pages/greenery_app_design/pageone.dart';
 import 'package:design_training/pages/pagetree.dart';
 import 'package:design_training/pages/pagetwo.dart';
@@ -31,6 +32,7 @@ class MyPageViewState extends State<MyPageView> {
       controller: pageController,
       children: <Widget>[
         PageOne(),
+        ExampleGreenApp(),
         PageTwo(),
         PageTree(),
       ],
