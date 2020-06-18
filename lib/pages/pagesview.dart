@@ -2,6 +2,7 @@ import 'package:design_training/pages/greenery_app_design/example.dart';
 import 'package:design_training/pages/greenery_app_design/pageone.dart';
 import 'package:design_training/pages/pagetree.dart';
 import 'package:design_training/pages/pagetwo.dart';
+import 'package:design_training/pages/responsive_greenery_app/responsive_greenery.dart';
 import 'package:flutter/material.dart';
 
 class MyPageView extends StatefulWidget {
@@ -31,6 +32,7 @@ class MyPageViewState extends State<MyPageView> {
     return PageView(
       controller: pageController,
       children: <Widget>[
+        ResponsiveGreeneryApp(),
         PageOne(),
         ExampleGreenApp(),
         PageTwo(),
